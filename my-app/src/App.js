@@ -1,13 +1,11 @@
 import "./App.css";
+// import Intro from "./components/Intro/Intro.js";
+// import Navbar from "./components/Navbar/Navbar";
 
-function App() {
+export function App() {
     return (
         <div className="App">
-            <h1>Michael Rushton</h1>
-            <h3>
-                I am a full stack developer. I love people, I love learning and
-                I love finding solutions.
-            </h3>
+            <h1>Mike</h1>
         </div>
     );
 }

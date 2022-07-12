@@ -3,7 +3,7 @@ plan
 # make five main components
 
         * landing
-            - navbar (sticky)
+            * navbar (sticky)
         * about
             - nice svg graphic maybe?
         * projects
