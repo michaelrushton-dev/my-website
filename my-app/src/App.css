@@ -2,12 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 :root {
-    --bg-color: red;
-    --primary-color: aqua;
-    --secondary-color: green;
+    --font-color: bisque;
+    --bg-color: #022b40;
+    --primary-color: #0dd3cd;
+    --secondary-color: #6600ff;
 }
 .App {
     text-align: center;
+}
+h1 {
+    font-size: 10rem;
+}
+h2 {
+    font-size: 3rem;
 }

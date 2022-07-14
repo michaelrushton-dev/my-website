@@ -1,9 +1,19 @@
 import React from "react";
+import "./intro.css";
+import "../../App.css";
 
 function Intro() {
     return (
         <div className="intro">
-            <h1>Hi</h1>
+            <header>
+                <h2>Hi, I'm</h2>
+                <h1>Mike</h1>
+                <h2 className="tagline">
+                    I love people, <br />
+                    learning <br />
+                    and finding solutions
+                </h2>
+            </header>
         </div>
     );
 }

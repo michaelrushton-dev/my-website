@@ -1,0 +1,21 @@
+.intro {
+    background-color: var(--bg-color);
+    background-image: url(./wave2.svg);
+    height: 100vh;
+    aspect-ratio: 900/450;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    padding-left: 5%;
+    padding-top: 18em;
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tagline {
+    text-align: start;
+}
