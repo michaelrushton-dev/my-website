@@ -13,8 +13,8 @@ function Intro() {
                     learning <br />
                     and finding solutions
                 </h2>
-                <div className="arrow-cta"></div>
             </header>
+            <div className="arrow-cta"></div>
         </div>
     );
 }

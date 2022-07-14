@@ -1,4 +1,5 @@
 .about {
+    display: flex;
     background-color: var(--bg-color);
     height: 100vh;
     aspect-ratio: 900/450;

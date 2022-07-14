@@ -1,6 +1,6 @@
 import "./App.css";
 import Intro from "./components/Intro/Intro.js";
-import Navbar from "./components/Navbar/Navbar.js";
+// import Navbar from "./components/Navbar/Navbar.js";
 import About from "./components/About/About.js";
 import Projects from "./components/Projects/Projects.js";
 import Contact from "./components/Contact/Contact.js";
