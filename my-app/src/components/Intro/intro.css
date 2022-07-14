@@ -19,3 +19,30 @@ header {
 .tagline {
     text-align: start;
 }
+.arrow-cta {
+    margin-top: 5em;
+    align-self: center;
+    width: 0;
+    height: 0;
+    border-left: 5em solid transparent;
+    border-right: 5em solid transparent;
+    border-top: 5em solid var(--font-color);
+    animation: bounce 2s infinite linear;
+}
+@keyframes bounce {
+    20%,
+    50%,
+    80%,
+    to {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    70% {
+        transform: translateY(-15px);
+    }
+    90% {
+        transform: translateY(-4px);
+    }
+}
