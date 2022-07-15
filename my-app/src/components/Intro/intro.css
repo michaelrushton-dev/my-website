@@ -12,6 +12,7 @@
     background-size: cover;
 }
 header {
+    max-height: 100%;
     display: flex;
     flex-wrap: wrap;
     padding-left: 5%;
@@ -26,7 +27,6 @@ header {
 }
 .arrow-cta {
     margin-top: 5em;
-    align-self: center;
     width: 0;
     height: 0;
     border-left: 5em solid transparent;
