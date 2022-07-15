@@ -4,7 +4,7 @@ import { FaBattleNet } from "react-icons/fa/index.js";
 
 function Navbar() {
     return (
-        <div>
+        <div className="navbar">
             <h3>
                 <FaBattleNet />
             </h3>

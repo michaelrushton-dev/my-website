@@ -1,10 +1,11 @@
 .about {
+    color: var(--font-color);
     display: flex;
-    background-color: var(--bg-color);
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 5rem;
+    background-color: var(--primary-color);
     height: 100vh;
     aspect-ratio: 900/450;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
