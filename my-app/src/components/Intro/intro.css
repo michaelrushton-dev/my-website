@@ -26,6 +26,7 @@ header {
     text-align: start;
 }
 .arrow-cta {
+    position: relative;
     margin-top: 5em;
     width: 0;
     height: 0;

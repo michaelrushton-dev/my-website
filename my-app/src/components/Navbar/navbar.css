@@ -1,8 +1,24 @@
 .navbar {
     position: sticky;
+    top: 0em;
+    width: 100%;
 }
 .bar {
-    height: 250px;
-    width: 100px;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    height: 8em;
+    width: 100%;
     background-color: black;
+    color: var(--font-color);
+}
+.bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-right: 5em;
 }

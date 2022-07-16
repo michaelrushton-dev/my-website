@@ -2,7 +2,12 @@ import React from "react";
 import "./intro.css";
 import "../../App.css";
 
-function Intro() {
+function Intro({ scrollPosition }) {
+    let opacityScroll = 1;
+    //NEED TO FIX THIS SO THE ARROW OPACITY INCREASES WHEN SCROLL POSITION IS ABOVE 300
+    if (scrollPosition > 300) {
+        opacityScroll = scrollPosition / 1000;
+    }
     return (
         <div className="intro">
             <header>
@@ -14,7 +19,7 @@ function Intro() {
                     and finding solutions
                 </h2>
             </header>
-            <div className="arrow-cta"></div>
+            <div className="arrow-cta" style={{ opacity: opacityScroll }}></div>
         </div>
     );
 }

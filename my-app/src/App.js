@@ -16,12 +16,14 @@ function App() {
     return (
         <div className="App">
             <Navbar scrollPosition={scrollPosition} />
-            <Intro />
-
-            <About />
-            <Projects />
-            <Contact />
-            <Footer />
+            <div className="wrapper">
+                {/* wrapper is only to seperate sticky nav from rest of app */}
+                <Intro scrollPosition={scrollPosition} />
+                <About />
+                <Projects />
+                <Contact />
+                <Footer />
+            </div>
         </div>
     );
 }

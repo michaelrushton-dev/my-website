@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 :root {
     --font-color: bisque;
@@ -20,4 +25,7 @@ h1 {
 }
 h2 {
     font-size: 3em;
+}
+.wrapper {
+    margin-top: -8em;
 }

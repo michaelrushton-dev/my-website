@@ -5,6 +5,7 @@ function useScroll() {
 
     const handleScroll = () => {
         const position = window.pageYOffset;
+
         setScrollPosition(position);
     };
 
