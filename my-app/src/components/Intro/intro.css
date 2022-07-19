@@ -14,7 +14,7 @@
 header {
     max-height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-left: 5%;
     padding-top: 15rem;
     color: var(--font-color);
@@ -43,10 +43,10 @@ header {
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-30px);
+        transform: translateY(-50px);
     }
     70% {
-        transform: translateY(-15px);
+        transform: translateY(-30px);
     }
     90% {
         transform: translateY(-4px);

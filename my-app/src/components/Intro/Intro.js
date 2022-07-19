@@ -4,14 +4,16 @@ import "../../App.css";
 
 function Intro({ scrollPosition }) {
     let opacityScroll;
-    //NEED TO FIX THIS SO THE ARROW OPACITY INCREASES WHEN SCROLL POSITION IS ABOVE 300
-    if (scrollPosition) {
-        opacityScroll = 1 - scrollPosition / 150;
-    }
+
+    opacityScroll = 1 - scrollPosition / 300;
+
     return (
         <div className="intro">
             <header>
-                <h2>Hi, I'm</h2>
+                <h2 className="hi" style={{ marginLeft: `${scrollPosition}%` }}>
+                    Hi,
+                </h2>
+                <h2>i'm</h2>
                 <h1>Mike</h1>
                 <h2 className="tagline">
                     I love people, <br />
