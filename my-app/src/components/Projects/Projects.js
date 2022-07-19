@@ -1,7 +1,9 @@
 import React from "react";
+import "./projects.css";
+import "../../App.css";
 
 function Projects() {
-    return <div>Projects</div>;
+    return <div className="projects">Projects</div>;
 }
 
 export default Projects;
