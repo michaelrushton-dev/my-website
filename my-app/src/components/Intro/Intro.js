@@ -11,11 +11,7 @@ function Intro({ scrollPosition }) {
     const opacityScrollDarker = 0 + (scrollPosition - 400) / 200;
     //offestting text to fly off screen at staggered rates
     let hiOffset;
-    if (scrollPosition > 100) {
-        hiOffset = scrollPosition - 100;
-    } else {
-        hiOffset = 0;
-    }
+    scrollPosition > 100 ? (hiOffset = scrollPosition - 100) : (hiOffset = 0);
 
     return (
         <div className="intro">
@@ -33,17 +29,17 @@ function Intro({ scrollPosition }) {
                         paddingLeft: `${hiOffset}%`,
                     }}
                 >
-                    i'm
+                    I'm
                 </h2>
                 <h1>Mike</h1>
                 <div className="tagline">
-                    <h2 style={{ paddingLeft: hiOffset - 200 }}>
+                    <h2 style={{ paddingLeft: hiOffset, whiteSpace: "nowrap" }}>
                         I love people,
                     </h2>
                     <h2 style={{ paddingLeft: hiOffset - 100 }}>learning</h2>
                     <h2
                         style={{
-                            paddingLeft: hiOffset,
+                            paddingLeft: hiOffset - 300,
 
                             whiteSpace: "nowrap",
                         }}
