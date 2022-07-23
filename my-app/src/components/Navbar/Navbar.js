@@ -5,21 +5,21 @@ import "../../App.css";
 function Navbar({ scrollPosition }) {
     const opacityScroll = scrollPosition / 200;
     return (
-        <div className="bar" style={{ opacity: opacityScroll }}>
+        <div className="navbar" style={{ opacity: opacityScroll }}>
             <ul>
                 <li>
-                    <a href={"#top"}>
+                    <a href={"#about"}>
                         <h3>About</h3>
                     </a>
                 </li>
                 <li>
-                    <a href={"#top"}>
+                    <a href={"#projects"}>
                         {" "}
                         <h3>Projects</h3>
                     </a>
                 </li>
                 <li>
-                    <a href={"#top"}>
+                    <a href={"#contact"}>
                         <h3>Contact</h3>
                     </a>
                 </li>

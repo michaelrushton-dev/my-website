@@ -1,4 +1,4 @@
-.about {
+#about {
     color: var(--font-color);
     display: flex;
     flex-direction: column;

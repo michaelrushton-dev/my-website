@@ -1,12 +1,11 @@
-.contact {
+#contact {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 8em;
+    color: var(--font-color);
     background-color: var(--primary-color);
     height: 100vh;
     aspect-ratio: 900/450;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
