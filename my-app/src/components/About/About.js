@@ -9,7 +9,7 @@ function About() {
                 <h2> A bit about me... </h2>
                 <br />
                 <p className='about-me'>
-                    Nice to meet you, i'm Mike Rushton.
+                    Nice to meet you, I'm Mike Rushton.
                     <br />
                     <br /> I have taken the leap out of my career as an optician
                     working in the Cayman Islands into an amazing new world of

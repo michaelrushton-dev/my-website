@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 header {
     max-height: 100%;
