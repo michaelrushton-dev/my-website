@@ -9,11 +9,20 @@
     background-color: var(--secondary-color);
     color: var(--font-color);
     z-index: 1;
+    padding-right: 5%;
 }
 .navbar ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5%;
     gap: 5em;
-    margin-right: 5em;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar {
+        padding-right: 0%;
+        justify-content: center;
+    }
 }

@@ -1,11 +1,25 @@
 #about {
-    color: var(--font-color);
+    /* color: var(--font-color);
+     */
+    font-size: 1em;
     display: flex;
     flex-direction: column;
-    padding-left: 5%;
-    padding-top: 5rem;
+    align-items: center;
+    padding-top: 3rem;
     background-color: var(--primary-color);
     height: 100vh;
     aspect-ratio: 900/450;
-    width: 100%;
+    width: 100vw;
+}
+.inner-content {
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+    .inner-content {
+        width: 50%;
+    }
 }
