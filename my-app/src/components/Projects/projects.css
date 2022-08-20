@@ -8,13 +8,14 @@
     height: 100vh;
     aspect-ratio: 900/450;
     width: 100vw;
-    padding-top: 5em;
+    padding-top: 0.5sem;
     overflow: hidden;
 }
 .inner-project-content {
     width: 100vw;
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }

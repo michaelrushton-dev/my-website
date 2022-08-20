@@ -1,0 +1,30 @@
+.card-display {
+    display: flex;
+    flex-direction: row;
+    row-gap: 1em;
+    justify-content: space-around;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    flex-wrap: wrap;
+}
+.cards {
+    width: 30vw;
+    background-color: blue;
+}
+.card-images {
+    height: 90%;
+    width: 90%;
+}
+@media only screen and (min-width: 600px) {
+    /* larger than wide mobile */
+    .cards {
+        width: 20vw;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* larger than wide mobile */
+    .cards {
+        width: 11em;
+    }
+}
