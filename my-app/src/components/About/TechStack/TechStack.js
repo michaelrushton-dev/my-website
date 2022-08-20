@@ -4,7 +4,9 @@ import techArray from './techStackArray/techStackArray.js';
 export default function TechStack() {
     return (
         <div>
-            <div>Technologies I have worked with</div>
+            <h3>Technologies I have worked with</h3>
+            <br />
+            <br />
             <div className='tech-map'>
                 {techArray.map((img) => {
                     return (

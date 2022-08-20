@@ -33,6 +33,8 @@ function About() {
                     helpful community that has a vibrant approach to encouraging
                     eachother's progress.
                 </p>
+                <br />
+                <br />
                 <TechStack />
             </div>
         </div>
