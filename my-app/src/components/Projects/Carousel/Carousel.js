@@ -22,7 +22,7 @@ export default function Carousel() {
             >
                 {imageArray.map((img) => {
                     return (
-                        <motion.div className='item'>
+                        <motion.div className='item' key={img}>
                             <img src={img} alt={img} key={img} />
                         </motion.div>
                     );

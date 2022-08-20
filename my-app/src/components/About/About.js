@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import '../../App.css';
+import TechStack from './TechStack/TechStack.js';
 
 function About() {
     return (
@@ -32,7 +33,7 @@ function About() {
                     helpful community that has a vibrant approach to encouraging
                     eachother's progress.
                 </p>
-                <div className='tech-stack'></div>
+                <TechStack />
             </div>
         </div>
     );

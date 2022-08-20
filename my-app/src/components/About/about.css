@@ -20,10 +20,18 @@
     font-weight: bold;
     font-size: 80%;
 }
-
+.about-me {
+    flex-shrink: 3;
+}
+.tech-stack {
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+}
 @media only screen and (min-width: 768px) {
     /* larger than mobile */
     .inner-content {
         width: 50%;
+        font-size: 100%;
     }
 }
