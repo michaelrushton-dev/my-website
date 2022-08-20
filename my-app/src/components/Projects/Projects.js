@@ -7,7 +7,7 @@ import Cards from './Cards/Cards.js';
 function Projects() {
     return (
         <div id='projects'>
-            <h2>Projects</h2>
+            <h2 className='projects-title'>Projects</h2>
             <div
                 className='inner-project-content'
                 style={{ paddingTop: '8em' }}
