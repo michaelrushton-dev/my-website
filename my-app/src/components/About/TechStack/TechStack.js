@@ -1,6 +1,6 @@
 import './techStack.css';
 import techArray from './techStackArray/techStackArray.js';
-
+//loops over imported array of tech stack pics to populate "tech-map"div
 export default function TechStack() {
     return (
         <div>

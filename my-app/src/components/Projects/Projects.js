@@ -1,9 +1,8 @@
 import React from 'react';
 import './projects.css';
 import '../../App.css';
-// import Carousel from './Carousel/Carousel.js';
 import Cards from './Cards/Cards.js';
-
+//card component imported (maps over project images - uses regex to name correctly)
 function Projects() {
     return (
         <div id='projects'>
@@ -12,7 +11,6 @@ function Projects() {
                 className='inner-project-content'
                 style={{ paddingTop: '8em' }}
             >
-                {/* <Carousel /> */}
                 <Cards />
             </div>
         </div>
