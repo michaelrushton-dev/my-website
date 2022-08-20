@@ -5,17 +5,22 @@
 }
 
 .item img {
-    width: 100%;
+    min-width: 100%;
     height: 100%;
     border-radius: 2em;
+    pointer-events: none;
 }
 .inner-carousel {
     display: flex;
     flex-direction: row;
+    background-color: aqua;
     /* max-width: 100vw; */
 }
 .carousel {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: grab;
+    overflow: hidden;
+    background-color: aquamarine;
 }

@@ -12,11 +12,13 @@
     width: 100vw;
 }
 .inner-content {
-    padding-top: 8em;
+    padding-top: 9em;
     display: flex;
     flex-direction: column;
     width: 80%;
+    position: relative;
     font-weight: bold;
+    font-size: 80%;
 }
 
 @media only screen and (min-width: 768px) {

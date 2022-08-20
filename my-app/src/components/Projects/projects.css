@@ -9,6 +9,7 @@
     aspect-ratio: 900/450;
     width: 100vw;
     padding-top: 5em;
+    overflow: hidden;
 }
 .inner-project-content {
     width: 100vw;

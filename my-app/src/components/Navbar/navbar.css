@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: flex-end;
     position: sticky;
-    top: 0;
+    top: 0em;
     height: 8em;
     width: 100%;
     background-color: var(--secondary-color);
@@ -22,7 +22,6 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .navbar {
-        padding-right: 0%;
-        justify-content: center;
+        justify-content: space-between;
     }
 }
