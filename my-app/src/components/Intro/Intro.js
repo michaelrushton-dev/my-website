@@ -1,6 +1,6 @@
-import React from "react";
-import "./intro.css";
-import "../../App.css";
+import React from 'react';
+import './intro.css';
+import '../../App.css';
 
 function Intro({ scrollPosition }) {
     //using scrollPosition value to make element opacity lighten
@@ -14,10 +14,10 @@ function Intro({ scrollPosition }) {
     scrollPosition > 100 ? (hiOffset = scrollPosition - 100) : (hiOffset = 0);
 
     return (
-        <div className="intro">
-            <header>
+        <div className='intro'>
+            <header className='intro-header'>
                 <h2
-                    className="hi"
+                    className='hi'
                     style={{
                         paddingLeft: `${scrollPosition}%`,
                     }}
@@ -32,8 +32,8 @@ function Intro({ scrollPosition }) {
                     I'm
                 </h2>
                 <h1>Mike</h1>
-                <div className="tagline">
-                    <h2 style={{ paddingLeft: hiOffset, whiteSpace: "nowrap" }}>
+                <div className='tagline'>
+                    <h2 style={{ paddingLeft: hiOffset, whiteSpace: 'nowrap' }}>
                         I love people,
                     </h2>
                     <h2 style={{ paddingLeft: hiOffset - 100 }}>learning</h2>
@@ -41,7 +41,7 @@ function Intro({ scrollPosition }) {
                         style={{
                             paddingLeft: hiOffset - 300,
 
-                            whiteSpace: "nowrap",
+                            whiteSpace: 'nowrap',
                         }}
                     >
                         and solving things
@@ -49,7 +49,7 @@ function Intro({ scrollPosition }) {
                 </div>
             </header>
             <div
-                className="welcome"
+                className='welcome'
                 style={
                     scrollPosition > 400
                         ? { opacity: `${opacityScrollDarker}` }
@@ -59,10 +59,10 @@ function Intro({ scrollPosition }) {
                 <h2>Welcome</h2>
             </div>
 
-            <a href="#about">
-                {" "}
+            <a className='arrow-link-wrapper' href='#about'>
+                {' '}
                 <div
-                    className="arrow-cta"
+                    className='arrow-cta'
                     style={{ opacity: opacityScrollLighter }}
                 ></div>
             </a>
