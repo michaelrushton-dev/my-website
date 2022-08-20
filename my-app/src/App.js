@@ -19,7 +19,7 @@ function App() {
             <div className='wrapper'>
                 {/* wrapper is only to seperate sticky nav from rest of app */}
                 <Intro scrollPosition={scrollPosition} />
-                <About />
+                <About scrollPosition={scrollPosition} />
                 <Projects />
                 <Contact />
                 <Footer />
