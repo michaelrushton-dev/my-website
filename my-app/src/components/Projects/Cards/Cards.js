@@ -1,5 +1,6 @@
 import './cards.css';
-import cardArray from './cardsArray/cardsArray.js';
+import { cardArray } from './cardsArray/cardsArray.js';
+import { linksArray } from './cardsArray/cardsArray.js';
 
 export default function Cards() {
     console.log(cardArray);
@@ -15,15 +16,21 @@ export default function Cards() {
     return (
         <div>
             <div className='card-display'>
-                {cardArray.map((card) => {
+                {cardArray.map((card, index) => {
                     return (
                         <div className='cards' key={card}>
-                            <img
-                                className='card-images'
-                                src={card}
-                                alt={card}
-                                key={card}
-                            />
+                            <a
+                                href={linksArray[index]}
+                                target={'_blank'}
+                                rel={'noreferrer'}
+                            >
+                                <img
+                                    className='card-images'
+                                    src={card}
+                                    alt={card}
+                                    key={card}
+                                />
+                            </a>
                             <h4>{getName(card)}</h4>
                         </div>
                     );
