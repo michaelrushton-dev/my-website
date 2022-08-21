@@ -11,9 +11,15 @@ As well as some jolly animations, this is a space for me to upload my most recen
 
 3. Drop the image into the following directory: _src/components/Projects/Cards/cardsArray_
 
-4. Now go into this file: _src/components/Projects/Cards/cardsArray/cardsArray.js_ and change the import path of the card number you wish to display the new image in to correspond with the fliename of the new image you just added
+4. Now go into this file: _src/components/Projects/Cards/cardsArray/cardsArray.js_ and create a new import named accordingly (eg 'card3' for it to be the third card displayed) with the corresponding import path of the new image you just added, for example
 
-5. Navigate to the following file: _src/components/Projects/Cards/Descriptions/descriptionsArray.js_ and write a description of the new project in the corresponding variable slot at the top of the file
+`import card3 from './Cheese_Sandwich.png';`
+
+5. Navigate to the following file: _src/components/Projects/Cards/Descriptions/descriptionsArray.js_ and write a description of the new project in a new variable slot at the top of the file for example:
+
+`const desc1 = 'This is a description of the new project called Cheese Sandwich'; `
+
+6. Still in the same file, add the name of the above variable to the default exported array: descriptionArray
 
 # Starting the App
 

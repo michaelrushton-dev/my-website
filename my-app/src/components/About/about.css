@@ -10,6 +10,7 @@
     height: 100vh;
     aspect-ratio: 900/450;
     width: 100vw;
+    overflow-x: hidden;
 }
 .inner-content {
     padding-top: 15em;

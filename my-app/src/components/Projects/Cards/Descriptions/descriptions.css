@@ -1,9 +1,12 @@
 #description-div {
     /* display: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     background-color: cornflowerblue;
-    margin-top: -0.5em;
-    height: 14em;
+
+    /* height: 14em; */
     width: 10em;
     opacity: 0.9;
     animation: fadeIn 1s;
@@ -14,5 +17,20 @@
     }
     100% {
         opacity: 0.9;
+    }
+}
+
+#description-text {
+    color: black;
+    font-size: 90%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* larger than wide mobile */
+    #description-div {
+        width: 12em;
+    }
+    #description-text {
+        font-size: 110%;
     }
 }
