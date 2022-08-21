@@ -44,7 +44,7 @@ export default function Cards() {
                                         key={card}
                                     />
                                     {hovered === index ? (
-                                        <Descriptions />
+                                        <Descriptions cardNumber={index} />
                                     ) : (
                                         console.log(false)
                                     )}
