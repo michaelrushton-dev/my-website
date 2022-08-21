@@ -25,3 +25,6 @@
         justify-content: center;
     }
 }
+.navbar ul li a h3:hover {
+    color: var(--primary-color);
+}
