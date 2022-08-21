@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import './cards.css';
 import { cardArray } from './cardsArray/cardsArray.js';
 import { linksArray } from './cardsArray/cardsArray.js';
+import Descriptions from './Descriptions/Descriptions.js';
 
 export default function Cards() {
+    const [hovered, setHovered] = useState(false);
     console.log(cardArray);
     // example of card string"/static/media/project-card-1.84747e47feb7636cfa6e.png"
 
@@ -18,20 +21,36 @@ export default function Cards() {
             <div className='card-display'>
                 {cardArray.map((card, index) => {
                     return (
-                        <div className='cards' key={card}>
+                        <div>
                             <a
                                 href={linksArray[index]}
                                 target={'_blank'}
                                 rel={'noreferrer'}
                             >
-                                <img
-                                    className='card-images'
-                                    src={card}
-                                    alt={card}
+                                <div
+                                    className='cards'
                                     key={card}
-                                />
+                                    onMouseEnter={() => {
+                                        setHovered(index);
+                                    }}
+                                    onMouseLeave={() => {
+                                        setHovered(false);
+                                    }}
+                                >
+                                    <img
+                                        className='card-images'
+                                        src={card}
+                                        alt={card}
+                                        key={card}
+                                    />
+                                    {hovered === index ? (
+                                        <Descriptions />
+                                    ) : (
+                                        console.log(false)
+                                    )}
+                                    <h4>{getName(card)}</h4>
+                                </div>
                             </a>
-                            <h4>{getName(card)}</h4>
                         </div>
                     );
                 })}

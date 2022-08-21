@@ -1,0 +1,18 @@
+#description-div {
+    /* display: none; */
+    position: absolute;
+    background-color: cornflowerblue;
+    margin-top: -0.5em;
+    height: 14em;
+    width: 10em;
+    opacity: 0.9;
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}

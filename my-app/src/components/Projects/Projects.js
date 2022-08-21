@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import '../../App.css';
 import Cards from './Cards/Cards.js';
+
 //card component imported (maps over project images - uses regex to name correctly)
 function Projects() {
     return (

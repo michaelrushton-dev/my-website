@@ -15,7 +15,9 @@
     border-radius: 5px;
     width: 30vw;
     background-color: var(--primary-color);
-    color: black;
+}
+.cards:hover {
+    transform: scale(1.02);
 }
 
 .card-images {
