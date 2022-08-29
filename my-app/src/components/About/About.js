@@ -2,16 +2,16 @@ import React from 'react';
 import './about.css';
 import '../../App.css';
 import TechStack from './TechStack/TechStack.js';
-import { motion, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 function About({ scrollPosition }) {
-    const { scrollYProgress } = useScroll();
+    // const { scrollYProgress } = useScroll();
 
     //using the scroll hook as prop to control fade in of heading
-    const opacityScrollDarker = 0 + (scrollPosition - 500) / 500;
+    // const opacityScrollDarker = 0 + (scrollPosition - 500) / 500;
     //using scroll hook to control slide in of header (h2)
-    let hiOffset;
-    hiOffset = 600 - scrollPosition;
+    // let hiOffset;
+    // hiOffset = 600 - scrollPosition;
     return (
         <div id='about'>
             <div className='inner-content'>
