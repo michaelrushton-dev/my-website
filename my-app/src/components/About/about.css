@@ -7,11 +7,11 @@
     align-items: center;
     padding-top: 3rem;
     background-color: var(--primary-color);
-    height: 100vh;
+    height: 900px;
     aspect-ratio: 900/450;
     width: 100vw;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 .inner-content {
     padding-top: 15em;
@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
+    height: 80%;
     position: relative;
     font-weight: bold;
     font-size: 80%;
