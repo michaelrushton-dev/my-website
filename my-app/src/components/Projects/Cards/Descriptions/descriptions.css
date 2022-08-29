@@ -4,9 +4,9 @@
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    background-color: cornflowerblue;
-
-    /* height: 14em; */
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 0.2em;
     width: 10em;
     opacity: 0.9;
     animation: fadeIn 1s;
