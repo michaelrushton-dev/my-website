@@ -9,7 +9,6 @@ function About({ scrollPosition }) {
     //using scroll hook to control slide in of header (h2)
     let hiOffset;
     hiOffset = 600 - scrollPosition;
-    console.log(scrollPosition);
     return (
         <div id='about'>
             <div className='inner-content'>
