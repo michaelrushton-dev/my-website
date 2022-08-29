@@ -16,7 +16,7 @@ function About({ scrollPosition }) {
         <div id='about'>
             <div className='inner-content'>
                 <motion.div
-                    initial={{ marginLeft: -5 }}
+                    initial={{ marginLeft: -50 }}
                     whileInView={{ marginLeft: '15em' }}
                     style={{ backgroundColor: 'red' }}
                     animate={{ x: 100 }}
@@ -32,8 +32,7 @@ function About({ scrollPosition }) {
                             whiteSpace: 'nowrap',
                         }}
                     >
-                        {' '}
-                        A bit about me...{' '}
+                        A bit about me...
                     </h2>
                 </motion.div>
 
