@@ -70,16 +70,15 @@ function Intro({ scrollPosition }) {
                     </motion.h2>
                 </div>
             </header>
-            <div
+            <motion.div
                 className='welcome'
-                style={
-                    scrollPosition > 400
-                        ? { opacity: `${opacityScrollDarker}` }
-                        : { opacity: 0 }
-                }
+                style={{
+                    x: scrollY.current - 500,
+                    opacity: scrollPosition > 400 ? opacityScrollDarker : 0,
+                }}
             >
                 <h2>Welcome</h2>
-            </div>
+            </motion.div>
 
             <a className='arrow-link-wrapper' href='#about'>
                 {' '}
