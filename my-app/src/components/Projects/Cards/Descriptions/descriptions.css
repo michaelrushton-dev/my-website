@@ -1,5 +1,4 @@
 #description-div {
-    /* display: none; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +6,7 @@
     background-color: var(--primary-color);
     border-radius: 5px;
     padding: 0.2em;
-    width: 10em;
+    width: 9em;
     opacity: 0.9;
     animation: fadeIn 1s;
 }

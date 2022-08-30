@@ -19,7 +19,7 @@ function Intro({ scrollPosition }) {
 
     const { scrollY } = useScroll();
 
-    console.log(scrollY.current);
+    // console.log(scrollY.current);
 
     return (
         <div className='intro'>
