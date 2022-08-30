@@ -2,10 +2,10 @@ import React from 'react';
 import './about.css';
 import '../../App.css';
 import TechStack from './TechStack/TechStack.js';
-import { motion, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 function About({ scrollPosition }) {
-    const { scrollYProgress } = useScroll();
+    // const { scrollYProgress } = useScroll();
 
     //using the scroll hook as prop to control fade in of heading
     // const opacityScrollDarker = 0 + (scrollPosition - 500) / 500;
