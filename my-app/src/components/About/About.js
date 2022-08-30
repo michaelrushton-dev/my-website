@@ -2,10 +2,10 @@ import React from 'react';
 import './about.css';
 import '../../App.css';
 import TechStack from './TechStack/TechStack.js';
-import { motion } from 'framer-motion';
+import { motion, useScroll } from 'framer-motion';
 
 function About({ scrollPosition }) {
-    // const { scrollYProgress } = useScroll();
+    const { scrollYProgress } = useScroll();
 
     //using the scroll hook as prop to control fade in of heading
     // const opacityScrollDarker = 0 + (scrollPosition - 500) / 500;
@@ -15,27 +15,22 @@ function About({ scrollPosition }) {
     return (
         <div id='about'>
             <div className='inner-content'>
-                <motion.div
-                    initial={{ marginLeft: -50 }}
-                    whileInView={{ marginLeft: '15em' }}
-                    style={{ backgroundColor: 'red' }}
-                    animate={{ x: 100 }}
-                    transition={{ type: 'spring', stiffness: 50 }}
-                >
-                    <h2
-                        style={{
-                            // opacity: opacityScrollDarker,
-                            // position: 'absolute',
-                            // marginTop: '2em',
-                            // top: '1em',
-                            // paddingRight: `${hiOffset}%`,
-                            whiteSpace: 'nowrap',
-                        }}
-                    >
-                        A bit about me...
-                    </h2>
-                </motion.div>
+                <motion.h2
+                    className='bit-about-me'
+                    whileInView={{ scale: 2 }}
+                    transition={{
+                        delay: 0.2,
+                        x: { duration: 1 },
 
+                        type: 'spring',
+                        stiffness: 50,
+                    }}
+                >
+                    A bit about me...
+                </motion.h2>
+
+                <br />
+                <br />
                 <br />
                 <p className='about-me'>
                     Nice to meet you, I'm Mike Rushton.

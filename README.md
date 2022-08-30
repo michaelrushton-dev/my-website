@@ -1,7 +1,7 @@
 # Mike Rushton's Website
 
 Welcome to the repository for my personal website.
-As well as some jolly animations, this is a space for me to upload my most recent projects so the world can see what I've been up to!
+This is a space for me to upload my most recent projects so the world can see what I've been up to!
 
 # Adding a new Project
 

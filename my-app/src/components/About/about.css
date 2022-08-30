@@ -28,6 +28,10 @@
 .about-me {
     flex-shrink: 3;
 }
+.bit-about-me {
+    white-space: nowrap;
+    scale: 0.5;
+}
 .tech-stack {
     width: 100px;
     height: 40px;
