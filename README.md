@@ -1,7 +1,8 @@
 # Mike Rushton's Website
 
 Welcome to the repository for my personal website.
-This is a space for me to upload my most recent projects so the world can see what I've been up to!
+This is a space for me to upload my most recent projects so the world can see what I've been up to! <br/>
+It is highly annotated with comments to demonstrate my development methods and thought processes - in a real world app I wouldn't have as many comments.
 
 # Adding a new Project
 
