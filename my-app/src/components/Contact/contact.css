@@ -7,10 +7,11 @@
     background-color: var(--primary-color);
     height: 900px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .icon-holder {
-    width: 80vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 5px;
@@ -22,6 +23,7 @@
 }
 .contact-inner-content {
     height: 80vh;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;

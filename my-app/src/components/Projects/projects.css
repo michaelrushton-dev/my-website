@@ -6,10 +6,10 @@
     color: var(--font-color);
     background-color: var(--bg-color);
     height: 900px;
-    aspect-ratio: 900/450;
-    width: 100vw;
+    /* aspect-ratio: 900/450; */
+    width: 100%;
     padding-top: 0.5sem;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .inner-project-content {
     width: 100vw;

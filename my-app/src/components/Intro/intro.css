@@ -6,7 +6,7 @@
     background-color: var(--bg-color);
     background-image: url(./wave2.svg);
     min-height: 900px;
-    aspect-ratio: 900/450;
+    /* aspect-ratio: 900/450; */
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;

@@ -8,8 +8,8 @@
     padding-top: 3rem;
     background-color: var(--primary-color);
     height: 900px;
-    aspect-ratio: 900/450;
-    width: 100vw;
+    /* aspect-ratio: 900/450; */
+    width: 100%;
     overflow-x: hidden;
     /* overflow-y: hidden; */
 }
