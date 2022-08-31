@@ -29,7 +29,7 @@ function Contact() {
                 <h3>Call me like</h3>
                 <div className='icon-holder'>
                     <div className='cv'>
-                        <a href='../../assets/mainpic.png' download={'cv.pdf'}>
+                        <a href='mike-rushton-cv.pdf' download>
                             <RiFileDownloadLine className='icons' />
                         </a>
 
