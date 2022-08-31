@@ -28,9 +28,28 @@ function Contact() {
                 </motion.h2>
                 <h3>Call me like</h3>
                 <div className='icon-holder'>
-                    <RiFileDownloadLine className='icons' />
-                    <BsGithub className='icons' />
-                    <AiFillLinkedin className='icons' />
+                    <div className='cv'>
+                        <a href='../../assets/mainpic.png' download={'cv.pdf'}>
+                            <RiFileDownloadLine className='icons' />
+                        </a>
+
+                        <p>Download CV</p>
+                    </div>
+                    <a
+                        href='https://github.com/michaelrushton-dev'
+                        target={'_blank'}
+                        rel={'noreferrer'}
+                    >
+                        {' '}
+                        <BsGithub className='icons' />
+                    </a>
+                    <a
+                        href='https://www.linkedin.com/in/michael-rushton/'
+                        target={'_blank'}
+                        rel={'noreferrer'}
+                    >
+                        <AiFillLinkedin className='icons' />
+                    </a>
                 </div>
             </div>
         </div>

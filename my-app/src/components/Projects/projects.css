@@ -23,16 +23,14 @@
     scale: 0.5;
 }
 
-@media only screen and (min-width: 600px) {
-    /* larger than wide mobile */
-    .projects-title {
+@media only screen and (max-width: 600px) {
+    larger than wide mobile .projects-title {
         padding-bottom: 1em;
     }
 }
 
-@media only screen and (min-width: 900px) {
-    /* even larger than wide mobile */
-    .projects-title {
+@media only screen and (max-width: 900px) {
+    even larger than wide mobile .projects-title {
         padding-bottom: 0;
     }
 }

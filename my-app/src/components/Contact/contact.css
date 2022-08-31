@@ -17,6 +17,16 @@
     gap: 5px;
 }
 
+.cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv p {
+    font-weight: bolder;
+}
+
 .icons {
     width: 5em;
     height: 5em;
