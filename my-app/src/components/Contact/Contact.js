@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { RiFileDownloadLine } from 'react-icons/ri/index.js';
 import { BsGithub } from 'react-icons/bs/index.js';
 import { AiFillLinkedin } from 'react-icons/ai/index.js';
+import { MdOutlineEmail } from 'react-icons/md/index.js';
 
 function Contact() {
     return (
@@ -26,8 +27,10 @@ function Contact() {
                 >
                     Contact
                 </motion.h2>
-                <h3>Call me like</h3>
+                <h3>Please feel free to reach out to me at any time!</h3>
                 <div className='icon-holder'>
+                    <MdOutlineEmail className='icons' />
+
                     <div className='cv'>
                         <a href='mike-rushton-cv.pdf' download>
                             <RiFileDownloadLine className='icons' />
@@ -35,6 +38,7 @@ function Contact() {
 
                         <p>Download CV</p>
                     </div>
+
                     <a
                         href='https://github.com/michaelrushton-dev'
                         target={'_blank'}
