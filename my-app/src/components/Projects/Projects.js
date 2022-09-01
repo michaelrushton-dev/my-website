@@ -1,12 +1,12 @@
 import React from 'react';
 import './projects.css';
 import '../../App.css';
+//card component imported (maps over project images - uses regex to name correctly)
 import Cards from './Cards/Cards.js';
 import { motion, useScroll } from 'framer-motion';
 import leaf1 from '../../assets/leafl-left-250.png';
 import leaf2 from '../../assets/leaf-right-110.png';
 
-//card component imported (maps over project images - uses regex to name correctly)
 function Projects() {
     const { scrollY } = useScroll();
     console.log(scrollY.current);
