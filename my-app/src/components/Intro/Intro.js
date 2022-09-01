@@ -73,7 +73,7 @@ function Intro({ scrollPosition }) {
             <motion.div
                 className='welcome'
                 style={{
-                    x: scrollY.current - 500,
+                    // x: scrollY.current - 500,
                     opacity: scrollPosition > 400 ? opacityScrollDarker : 0,
                 }}
             >
