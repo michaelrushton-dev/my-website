@@ -29,7 +29,14 @@ function Contact() {
                 </motion.h2>
                 <h3>Please feel free to reach out to me at any time!</h3>
                 <div className='icon-holder'>
-                    <MdOutlineEmail className='icons' />
+                    <a
+                        href='mailto:michaelwjrushton@gmail.com'
+                        target={'_blank'}
+                        rel={'noreferrer'}
+                    >
+                        {' '}
+                        <MdOutlineEmail className='icons' />
+                    </a>
 
                     <div className='cv'>
                         <a href='mike-rushton-cv.pdf' download>
