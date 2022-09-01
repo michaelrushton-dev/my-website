@@ -5,7 +5,7 @@
     position: sticky;
     top: 0em;
     height: 8em;
-    max-width: 100%;
+    max-width: 100vw;
     background-color: var(--secondary-color);
     color: var(--font-color);
     z-index: 1;
@@ -23,8 +23,6 @@
     /* For mobile phones: */
     .navbar {
         justify-content: space-around;
-        /* align-items: center; */
-        /* padding-right: 0; */
     }
 }
 .navbar ul li a h3:hover {
