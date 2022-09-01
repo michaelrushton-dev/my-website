@@ -18,13 +18,12 @@
     margin-left: 10%;
     gap: 33%;
 }
-
+.navbar ul li a h3:hover {
+    color: var(--primary-color);
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .navbar {
         justify-content: space-around;
     }
-}
-.navbar ul li a h3:hover {
-    color: var(--primary-color);
 }

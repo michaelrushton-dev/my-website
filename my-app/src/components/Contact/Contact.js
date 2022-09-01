@@ -30,7 +30,7 @@ function Contact() {
                 <h3>Please feel free to reach out to me at any time!</h3>
                 <div className='icon-holder'>
                     <a
-                        href='mailto:michaelwjrushton@gmail.com'
+                        href='mailto:michaelwjrushton@gmail.com?subject=Contact from website'
                         target={'_blank'}
                         rel={'noreferrer'}
                     >

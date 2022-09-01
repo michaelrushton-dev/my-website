@@ -23,6 +23,19 @@
     scale: 0.5;
 }
 
+.leaf-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1800px;
+    gap: -50px;
+}
+.leafs {
+    width: 100vw;
+    height: 100vw;
+}
+
 @media only screen and (max-width: 600px) {
     /* larger than wide mobile */
     .projects-title {

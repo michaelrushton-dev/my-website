@@ -16,7 +16,6 @@ function Navbar({ scrollPosition }) {
                 </li>
                 <li>
                     <a href={'#projects'}>
-                        {' '}
                         <h3>Projects</h3>
                     </a>
                 </li>
