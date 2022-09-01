@@ -19,7 +19,7 @@ export default function Cards() {
             <div className='card-display'>
                 {cardArray.map((card, index) => {
                     return (
-                        <div>
+                        <div key={card}>
                             <a
                                 href={linksArray[index]}
                                 target={'_blank'}
@@ -27,7 +27,6 @@ export default function Cards() {
                             >
                                 <div
                                     className='cards'
-                                    key={card}
                                     onMouseEnter={() => {
                                         setHovered(index);
                                     }}
@@ -39,7 +38,6 @@ export default function Cards() {
                                         className='card-images'
                                         src={card}
                                         alt={card}
-                                        key={card}
                                     />
                                     {hovered === index ? (
                                         <Descriptions cardNumber={index} />
