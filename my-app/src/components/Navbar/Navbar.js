@@ -1,25 +1,27 @@
-import React from "react";
-import "./navbar.css";
-import "../../App.css";
+import React from 'react';
+import './navbar.css';
+import '../../App.css';
+import { useScroll } from 'framer-motion';
 
 function Navbar({ scrollPosition }) {
-    const opacityScroll = scrollPosition / 200;
+    // const opacityScroll = scrollPosition / 200;
+    const { scrollY } = useScroll();
     return (
-        <div className="navbar" style={{ opacity: opacityScroll }}>
+        <div className='navbar' style={{ opacity: scrollY.current / 200 }}>
             <ul>
                 <li>
-                    <a href={"#about"}>
+                    <a href={'#about'}>
                         <h3>About</h3>
                     </a>
                 </li>
                 <li>
-                    <a href={"#projects"}>
-                        {" "}
+                    <a href={'#projects'}>
+                        {' '}
                         <h3>Projects</h3>
                     </a>
                 </li>
                 <li>
-                    <a href={"#contact"}>
+                    <a href={'#contact'}>
                         <h3>Contact</h3>
                     </a>
                 </li>

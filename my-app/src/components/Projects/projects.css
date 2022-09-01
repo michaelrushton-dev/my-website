@@ -24,13 +24,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-    larger than wide mobile .projects-title {
+    /* larger than wide mobile */
+    .projects-title {
         padding-bottom: 1em;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    even larger than wide mobile .projects-title {
+    /* even larger than wide mobile  */
+    .projects-title {
         padding-bottom: 0;
     }
 }
