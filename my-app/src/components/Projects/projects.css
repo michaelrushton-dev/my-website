@@ -8,7 +8,7 @@
     height: 900px;
     /* aspect-ratio: 900/450; */
     width: 100%;
-    padding-top: 0.5sem;
+    padding-top: 0.5em;
     overflow-x: hidden;
 }
 .inner-project-content {
