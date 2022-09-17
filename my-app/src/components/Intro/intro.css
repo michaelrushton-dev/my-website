@@ -5,7 +5,7 @@
     flex-direction: column;
     background-color: var(--bg-color);
     background-image: url(./wave2.svg);
-    min-height: 900px;
+    height: var(--section-height);
     /* aspect-ratio: 900/450; */
     width: 100%;
     background-repeat: no-repeat;

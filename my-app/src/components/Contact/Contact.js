@@ -33,13 +33,18 @@ function Contact() {
                         href='mailto:michaelwjrushton@gmail.com?subject=Contact from website'
                         target={'_blank'}
                         rel={'noreferrer'}
+                        title={'Email'}
                     >
                         {' '}
                         <MdOutlineEmail className='icons' />
                     </a>
 
                     <div className='cv'>
-                        <a href='mike-rushton-cv.pdf' download>
+                        <a
+                            href='mike-rushton-cv.pdf'
+                            download
+                            title={'Download CV'}
+                        >
                             <RiFileDownloadLine className='icons' />
                         </a>
 
@@ -50,6 +55,7 @@ function Contact() {
                         href='https://github.com/michaelrushton-dev'
                         target={'_blank'}
                         rel={'noreferrer'}
+                        title={'GitHub'}
                     >
                         {' '}
                         <BsGithub className='icons' />
@@ -58,6 +64,7 @@ function Contact() {
                         href='https://www.linkedin.com/in/michael-rushton/'
                         target={'_blank'}
                         rel={'noreferrer'}
+                        title={'LinkedIn'}
                     >
                         <AiFillLinkedin className='icons' />
                     </a>

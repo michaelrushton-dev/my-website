@@ -5,10 +5,10 @@
     align-items: center;
     color: var(--font-color);
     background-color: var(--bg-color);
-    height: 900px;
+    height: var(--section-height);
     /* aspect-ratio: 900/450; */
     width: 100%;
-    padding-top: 0.5em;
+    padding-top: 5em;
     overflow-x: hidden;
 }
 .inner-project-content {
@@ -28,7 +28,8 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 1800px;
+    top: 200vh;
+    max-height: var(--section-height);
 }
 .leafs {
     width: 100vw;
@@ -42,9 +43,14 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 900px) {
     /* even larger than wide mobile  */
     .projects-title {
         padding-bottom: 0;
+    }
+
+    .leafs {
+        width: 70vw;
+        height: 70vw;
     }
 }
