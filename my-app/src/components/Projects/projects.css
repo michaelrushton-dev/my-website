@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 1800px;
+    top: 200vh;
     max-height: 1800px;
     pointer-events: none;
 }
