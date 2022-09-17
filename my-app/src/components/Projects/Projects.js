@@ -35,7 +35,7 @@ function Projects() {
                                   rotate: -scrollY.current / 5 - 800,
                                   x: -scrollY.current + 1400,
                               }
-                            : console.log('not there yet')
+                            : null
                     }
                     src={leaf1}
                     alt='leaf'
@@ -57,7 +57,7 @@ function Projects() {
                                   rotate: scrollY.current / 5 + 800,
                                   x: scrollY.current - 1400,
                               }
-                            : console.log('not there yet')
+                            : null
                     }
                     transition={{
                         delay: 0.2,
