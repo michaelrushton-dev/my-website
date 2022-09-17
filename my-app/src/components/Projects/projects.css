@@ -28,8 +28,9 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 200vh;
-    max-height: var(--section-height);
+    top: 1800px;
+    max-height: 1800px;
+    pointer-events: none;
 }
 .leafs {
     width: 100vw;
@@ -49,8 +50,8 @@
         padding-bottom: 0;
     }
 
-    .leafs {
+    /* .leafs {
         width: 70vw;
         height: 70vw;
-    }
+    } */
 }

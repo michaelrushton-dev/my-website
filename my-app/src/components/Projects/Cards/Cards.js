@@ -24,16 +24,14 @@ export default function Cards() {
                                 href={linksArray[index]}
                                 target={'_blank'}
                                 rel={'noreferrer'}
+                                onMouseEnter={() => {
+                                    setHovered(index);
+                                }}
+                                onMouseLeave={() => {
+                                    setHovered(false);
+                                }}
                             >
-                                <div
-                                    className='cards'
-                                    onMouseEnter={() => {
-                                        setHovered(index);
-                                    }}
-                                    onMouseLeave={() => {
-                                        setHovered(false);
-                                    }}
-                                >
+                                <div className='cards'>
                                     <img
                                         className='card-images'
                                         src={card}
