@@ -9,7 +9,7 @@ import leaf2 from '../../assets/leaf-right-110.png';
 
 function Projects() {
     const { scrollY } = useScroll();
-    console.log(scrollY.current);
+    // console.log(scrollY.current);
     return (
         <div id='projects'>
             <motion.h2

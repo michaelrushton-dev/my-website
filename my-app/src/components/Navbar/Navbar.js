@@ -10,17 +10,17 @@ function Navbar({ scrollPosition }) {
         <div className='navbar' style={{ opacity: scrollY.current / 200 }}>
             <ul>
                 <li>
-                    <a href={'#about'}>
+                    <a href={'#about'} title={'About'}>
                         <h3>About</h3>
                     </a>
                 </li>
                 <li>
-                    <a href={'#projects'}>
+                    <a href={'#projects'} title={'Projects'}>
                         <h3>Projects</h3>
                     </a>
                 </li>
                 <li>
-                    <a href={'#contact'}>
+                    <a href={'#contact'} title={'Contact'}>
                         <h3>Contact</h3>
                     </a>
                 </li>

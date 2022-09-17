@@ -15,6 +15,7 @@ a {
     --bg-color: #022b40;
     --primary-color: #0dd3cd;
     --secondary-color: #6600ff;
+    --section-height: 100vh;
 }
 .App {
     box-sizing: border-box;

@@ -5,7 +5,7 @@
     padding-top: 1em;
     color: var(--font-color);
     background-color: var(--primary-color);
-    height: 900px;
+    height: var(--section-height);
     width: 100%;
     overflow-x: hidden;
 }
