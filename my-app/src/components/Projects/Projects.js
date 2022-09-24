@@ -9,7 +9,9 @@ import leaf2 from '../../assets/leaf-right-110.png';
 
 function Projects() {
     const { scrollY } = useScroll();
-    // console.log(scrollY.current);
+    let viewportHeight = window.innerHeight;
+    let viewportWidth = window.innerWidth;
+    console.log(scrollY.current);
     return (
         <div id='projects'>
             <motion.h2
@@ -29,6 +31,14 @@ function Projects() {
                 {/* leaf1 */}
                 <motion.img
                     className='leafs leaf1'
+                    // style={
+                    //     scrollY.current > viewportHeight * 1.8
+                    //         ? {
+                    //               rotate: -scrollY.current / 5 - 758,
+                    //               x: -scrollY.current / (viewportWidth - 100),
+                    //           }
+                    //         : null
+                    // }
                     style={
                         scrollY.current > 1400
                             ? {

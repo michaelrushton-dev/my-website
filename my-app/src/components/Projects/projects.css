@@ -7,9 +7,10 @@
     background-color: var(--bg-color);
     height: var(--section-height);
     /* aspect-ratio: 900/450; */
-    width: 100%;
+    width: 100vw;
     padding-top: 15vh;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .inner-project-content {
     width: 100%;
@@ -29,15 +30,17 @@
     align-items: center;
     justify-content: center;
     position: absolute;
+    width: 100vw;
     top: 200vh;
     max-height: 1800px;
     pointer-events: none;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .leafs {
     width: 100vw;
     height: 100vw;
-    display: none;
+    /* display: none; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,5 +54,12 @@
     /* even larger than wide mobile  */
     .projects-title {
         padding-bottom: 0;
+    }
+}
+
+/* leaves dissapear on modile screens */
+@media only screen and (max-height: 890px) {
+    .leaf-container {
+        display: none;
     }
 }
