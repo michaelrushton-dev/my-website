@@ -72,10 +72,7 @@ function Projects() {
                 />
             </div>
 
-            <div
-                className='inner-project-content'
-                style={{ paddingTop: '8em' }}
-            >
+            <div className='inner-project-content'>
                 <Cards />
             </div>
         </div>

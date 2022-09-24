@@ -14,16 +14,16 @@
     /* overflow-y: hidden; */
 }
 .inner-content {
-    padding-top: 15em;
+    padding-top: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 80%;
+    width: 90vw;
+    height: 80vh;
     position: relative;
     font-weight: bold;
-    font-size: 80%;
+    font-size: 1.5vh;
 }
 .about-me {
     flex-shrink: 3;

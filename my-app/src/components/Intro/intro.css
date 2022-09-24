@@ -26,7 +26,7 @@
     flex-direction: column;
     align-items: flex-start;
     align-self: flex-start;
-    font-size: 75%;
+    font-size: 1.5vh;
 }
 .tagline {
     text-align: start;
@@ -66,7 +66,7 @@
 }
 .welcome {
     position: absolute;
-    margin-top: 800px;
+    margin-top: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
