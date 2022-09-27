@@ -18,9 +18,6 @@
     width: 30vw;
     background-color: var(--primary-color);
 }
-.cards:hover {
-    transform: scale(1.02);
-}
 
 .card-images {
     /* padding-top: 0.5em; */
@@ -29,6 +26,9 @@
     height: 90%;
     width: 90%;
     box-shadow: 18px 16px 23px -8px rgba(0, 0, 0, 0.61);
+}
+.card-images:hover {
+    transform: scale(1.02);
 }
 @media only screen and (min-width: 600px) {
     /* larger than wide mobile */
