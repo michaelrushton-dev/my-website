@@ -9,8 +9,8 @@ import leaf2 from '../../assets/leaf-right-110.png';
 
 function Projects() {
     const { scrollY } = useScroll();
-    let viewportHeight = window.innerHeight;
-    let viewportWidth = window.innerWidth;
+    // let viewportHeight = window.innerHeight;
+    // let viewportWidth = window.innerWidth;
     console.log(scrollY.current);
     return (
         <div id='projects'>
