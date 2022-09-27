@@ -36,6 +36,7 @@
     pointer-events: none;
     overflow-x: hidden;
     overflow-y: hidden;
+    display: none;
 }
 .leafs {
     width: 100vw;
