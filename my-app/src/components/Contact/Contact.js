@@ -41,7 +41,7 @@ function Contact() {
 
                     <div className='cv'>
                         <a
-                            href='mike-rushton-cv.pdf'
+                            href='mike-rushton-cv1.pdf'
                             download
                             title={'Download CV'}
                         >
