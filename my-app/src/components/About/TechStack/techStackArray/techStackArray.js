@@ -9,6 +9,7 @@ import img8 from './postgresql.png';
 import img9 from './cypress.webp';
 import img10 from './react-testing-library.png';
 import img11 from './jest.png';
+import img12 from './mongo.png';
 
 let techArray = [
     img1,
@@ -22,6 +23,7 @@ let techArray = [
     img9,
     img10,
     img11,
+    img12,
 ];
 
 export default techArray;
